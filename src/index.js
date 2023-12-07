@@ -36,7 +36,16 @@ document.addEventListener("mousedown", () => {
     onmouse = true;
 });
 
+document.addEventListener("touchstart", () => {
+    onmouse = true;
+});
+
 document.addEventListener("mouseup", () => {
+    onmouse = false;
+    onceMouseClick = true;
+});
+
+document.addEventListener("touchend", () => {
     onmouse = false;
     onceMouseClick = true;
 });
