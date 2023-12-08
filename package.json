@@ -11,7 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pixi.js": "^7.3.2"
+    "howler": "^2.2.4",
+    "pixi-tween": "^0.2.0",
+    "pixi.js": "^7.3.2",
+    "tween.js": "^16.6.0"
   },
   "devDependencies": {
     "webpack": "^5.89.0",

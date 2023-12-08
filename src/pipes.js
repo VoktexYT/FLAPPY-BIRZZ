@@ -14,7 +14,7 @@ export default class Pipes extends Sprite {
         if (this.sprite.x < -this.sprite.width) {
             this.sprite.x = 400;
         } else {
-            this.sprite.x -= this.velocity;
+            this.sprite.x -= this.velocity * delta;
         }
     }
 }
